@@ -2,8 +2,12 @@ import  React from 'react';
 
 class Botao  extends React.Component{
     render () {
+        const backgroundColor ='red';
+        const style= {
+            backgroundColor
+        }
         return(
-        <button>
+        <button style={style}>
             Botão
         </button>
         )
