@@ -9,7 +9,7 @@ import * as React from 'react';
               tempo: '01:00:00'
           }, {
             tarefa:'Node.js',
-            tempo:'03:00;00'
+            tempo:'03:00:00'
           }
         ]
     return(
