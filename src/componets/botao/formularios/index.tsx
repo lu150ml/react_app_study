@@ -1,14 +1,14 @@
 import * as React from 'react';
 import { Component } from 'react';
 import { isMainThread } from 'worker_threads';
-import Botao from '../../botao';
+import Botao from '../botao/index';
 import './style.scss';
 
 class Formulario extends React.Component {
     render() {
         return(
             <form className="novaTarefa">
-                <div>
+                <div className='inputContainer'>
                 <label htmlFor='tarefa'>
 
                 </label>
@@ -21,7 +21,7 @@ class Formulario extends React.Component {
                 />
 
                 </div>
-                <div>
+                <div className='inputCotainer'>
                 <label htmlFor='tempo'>
                     Tempo
                 </label>

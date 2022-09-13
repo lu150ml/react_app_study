@@ -1,13 +1,10 @@
 import  React from 'react';
+import './style.scss'
 
 class Botao  extends React.Component{
     render () {
-        const backgroundColor ='red';
-        const style= {
-            backgroundColor
-        }
         return(
-        <button style={style}>
+        <button className='botao'>
             Botão
         </button>
         )
